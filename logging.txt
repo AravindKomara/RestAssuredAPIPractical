@@ -1,0 +1,88 @@
+Request method:	GET
+Request URI:	https://reqres.in/api/unknown
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 05 Jun 2021 10:40:13 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 108
+cf-request-id: 0a7d5b61010000f8a772831000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=yBWaImb52Xhkb%2BKh2HSN2QJAzjJfhknQPcLKiYPCulCQNwMELiyZ%2FmpuYmrBc4CVNcsyJ63mwB4DQYaH1AEs9yTss6RM6eni%2BNmUKTigI%2FNxboc5WLqt"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 65a8c814b87cf8a7-NRT
+Content-Encoding: gzip
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "name": "cerulean",
+            "year": 2000,
+            "color": "#98B2D1",
+            "pantone_value": "15-4020"
+        },
+        {
+            "id": 2,
+            "name": "fuchsia rose",
+            "year": 2001,
+            "color": "#C74375",
+            "pantone_value": "17-2031"
+        },
+        {
+            "id": 3,
+            "name": "true red",
+            "year": 2002,
+            "color": "#BF1932",
+            "pantone_value": "19-1664"
+        },
+        {
+            "id": 4,
+            "name": "aqua sky",
+            "year": 2003,
+            "color": "#7BC4C4",
+            "pantone_value": "14-4811"
+        },
+        {
+            "id": 5,
+            "name": "tigerlily",
+            "year": 2004,
+            "color": "#E2583E",
+            "pantone_value": "17-1456"
+        },
+        {
+            "id": 6,
+            "name": "blue turquoise",
+            "year": 2005,
+            "color": "#53B0AE",
+            "pantone_value": "15-5217"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-05T16:10:08 IST" name="Default suite" finished-at="2021-06-05T16:10:15 IST" duration-ms="7374">
+    <groups>
+    </groups>
+    <test started-at="2021-06-05T16:10:08 IST" name="Default test" finished-at="2021-06-05T16:10:15 IST" duration-ms="7374">
+      <class name="deserilaization.Deserilaization_Test_Model_Class">
+        <test-method is-config="true" signature="createRequestSpecification()[pri:0, instance:deserilaization.Deserilaization_Test_Model_Class@74fe5c40]" started-at="2021-06-05T16:10:08 IST" name="createRequestSpecification" finished-at="2021-06-05T16:10:11 IST" duration-ms="2804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createRequestSpecification -->
+        <test-method signature="deseriliazeResponseValidateFileds()[pri:0, instance:deserilaization.Deserilaization_Test_Model_Class@74fe5c40]" started-at="2021-06-05T16:10:11 IST" name="deseriliazeResponseValidateFileds" finished-at="2021-06-05T16:10:15 IST" duration-ms="4461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deseriliazeResponseValidateFileds -->
+      </class> <!-- deserilaization.Deserilaization_Test_Model_Class -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
